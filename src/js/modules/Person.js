@@ -1,12 +1,11 @@
 export class Person {
     name;
-    age;
-    isMarried;
-    adress;
-    constructor(name, age, isMarried, adress) {
-      this.name = name;
-      this.age = age;
-      this.isMarried = isMarried;
-      this.adress = adress;
+    lenght;
+    eyeColor;
+    
+    constructor(name, lenght, eyeColor){
+        this.name = name;
+        this.lenght = lenght;
+        this.eyeColor = eyeColor;
     }
-  }
+}

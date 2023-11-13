@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -7,7 +7,26 @@
     <title>Object</title>
   </head>
   <body>
-    <div id="app"></div>
+    
+      <fieldset>
+        <legend>Skapa ny person</legend>
+      
+        <label for="personName">Namn på person:</label><br>
+        <input type="text" name="personName" id="personName" /><br>
+
+        <label for="personLength">Längd på person:</label><br>
+        <input type="text" name="personLength" id="personLength" /><br>
+        
+        <label for="personEye">Ögonfärg:</label><br>
+        <input type="text" name="personEye" id="personEye"><br>
+
+        <button id="createBtn">Skapa</button>
+
+      </fieldset>
+
+      <!-- <div id="personsContainer">
+        <h2>Personer:</h2>
+      </div> -->
     <script type="module" src="src/js/main.js"></script>
   </body>
 </html>
